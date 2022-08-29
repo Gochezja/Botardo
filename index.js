@@ -46,11 +46,11 @@ function task(i) {
 	
   setTimeout(function() { 
     if(first == false){
-	bot.chat("Simplemente soy un Bot")
+	bot.chat("")
 	first = false;
 	}
 	else{
-		bot.chat("Soy simplemente un Bot")
+		bot.chat("")
 		first = false;
 	}
   }, 3600000 * i); 
