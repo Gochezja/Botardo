@@ -46,11 +46,11 @@ function task(i) {
 	
   setTimeout(function() { 
     if(first == false){
-	bot.chat("Subscribe To Easy Gamer : https://www.youtube.com/channel/UCk575VDlrCsv1Gy2XZQ1bSA")
+	bot.chat("Simplemente soy un Bot")
 	first = false;
 	}
 	else{
-		bot.chat("Subscribe To MannuG : https://www.youtube.com/channel/UCSZHRnBue50ImBKeR6k6eDg")
+		bot.chat("Soy simplemente un Bot")
 		first = false;
 	}
   }, 3600000 * i); 
